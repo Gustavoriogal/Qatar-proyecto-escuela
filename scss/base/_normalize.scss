@@ -1,0 +1,19 @@
+/* Normalize */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+main{
+    min-height: 83vh;
+}
+
+.focus{
+    font-weight: bolder;
+}

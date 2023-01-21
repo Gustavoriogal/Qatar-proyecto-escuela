@@ -1,0 +1,38 @@
+
+/* Form */
+.formMain{
+    display: flex;
+    color:map-get($paleta, bordo );
+    height: 80vh;
+    
+}
+
+.formContainer{
+    padding-left: 20vw;
+    width: 80%;
+    height: 80vh;
+    text-align: center;
+    form{
+        width: 60%;
+        margin: 10vh auto;
+        h2{
+            margin-bottom: 10vh;
+            font-size: 2rem;
+            font-weight: bolder;
+        }
+    }
+}
+
+.asideForm{
+    height: 15vh;
+    width: 100%;
+    background-color: map-get($paleta, bordo );
+    color: #ffffff;
+    text-align: center;
+    img{
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid black;
+    
+    }
+}

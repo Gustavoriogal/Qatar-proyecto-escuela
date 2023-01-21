@@ -1,0 +1,9 @@
+@mixin button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: map-get($paleta, bordo );
+    font-weight: bolder;
+    padding: 5px;
+    border: map-get($paleta, bordo ) 1px solid;
+}

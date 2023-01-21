@@ -1,0 +1,14 @@
+/* Footer */
+
+.footer{
+    background-color: map-get($paleta, bordo );
+    text-align: center;
+    a {
+        display: inline-block;
+        padding: 20px;
+        i{
+            font-size: 1.8rem;
+        }
+    }
+}
+

@@ -1,0 +1,15 @@
+/* Navbar */
+
+.navbarContainer{
+    background-color: map-get($paleta, bordo );
+    .logoContainer{
+        display: inline-block;
+        width: 20vw;
+    
+    }
+
+}
+.bgBordo{
+    background-color: map-get($paleta, bordo );
+
+}

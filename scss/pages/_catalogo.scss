@@ -1,0 +1,61 @@
+/* Main Content */
+
+.head{
+    height: 60vh;
+    background-image: url("https://www.qatarairways.com/content/dam/images/custom/enl-subscribe-component/NL_Background_Desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    h1{
+        font-size: 3.5rem;
+        font-weight: bolder;
+        color: white;
+        position: relative;
+        top: 40%;
+        text-shadow:  2px 2px 5px #000000;
+        animation-name: entrada;
+        animation-duration: 3s;
+    }
+}
+
+
+
+
+
+.productsContainer{
+    text-align: center;
+    padding: 10vh 3vw;
+    .card{
+        background-color: #6B022F;
+        border-radius: 5px;
+        color: white;
+        width: 310px;
+        padding: 10px;
+        display: inline-block;
+        .destination{
+            width: 100%;
+            border-radius: 5px;
+        }
+        .info{ 
+            p{
+                display: inline-block;
+            }
+        }
+        .btnContainer{
+            button{
+                background-color: #ffffff;
+                border: none;
+                border-radius: 5px;
+                color: #6B022F;
+                font-weight: bolder;
+                padding: 5px;
+                border: none;
+                i{
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+
+}
+

@@ -1,0 +1,11 @@
+/* Seccion Nosotros */
+
+.ourContainer{
+    padding: 10vh 3vw;
+    color: map-get($paleta, bordo );
+    font-weight: bolder;
+    h2{
+        margin-bottom: 20px;
+        font-size: 2rem;
+    }
+}
